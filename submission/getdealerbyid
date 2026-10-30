@@ -1,0 +1,3 @@
+﻿curl http://localhost:8000/djangoapp/dealer/29
+
+{"status": 200, "dealer": [{"id": 29, "city": "San Francisco", "state": "California", "st": "CA", "address": "9 Harper Circle", "zip": "94110", "lat": 37.7509, "long": -122.4153, "short_name": "Fix San", "full_name": "Fix San Car Dealership"}]}

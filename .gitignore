@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+node_modules/
+db.sqlite3
+take_screenshots.py
+
