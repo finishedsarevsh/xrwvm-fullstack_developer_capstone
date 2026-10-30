@@ -18,12 +18,12 @@ def analyze_sentiment(input_txt):
     print(scores)
     pos = float(scores['pos'])
     neg = float(scores['neg'])
-    neu = float(scores['neu'])
-    res = "positive"
-    print("pos neg nue ", pos, neg, neu)
-    if (neg > pos and neg > neu):
+    compound = float(scores['compound'])
+    if compound >= 0.05 or (pos > neg and pos >= 0.1):
+        res = "positive"
+    elif compound <= -0.05 or (neg > pos and neg >= 0.1):
         res = "negative"
-    elif (neu > neg and neu > pos):
+    else:
         res = "neutral"
     res = json.dumps({"sentiment": res})
     print(res)
