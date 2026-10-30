@@ -1,4 +1,9 @@
-﻿lint-and-build	UNKNOWN STEP	∩╗┐2026-10-30T18:16:33.8291369Z Current runner version: '2.338.2'
+﻿ Γ£ô main CI Pipeline ┬╖ 41105501101 Triggered via push about 33 minutes ago  Γ£ô lint-and-build in 50s (ID 124234086498)   Γ£ô Set up job   Γ£ô Checkout repository   Γ£ô Set up Python   Γ£ô Install Python dependencies   Γ£ô Run Flake8 Linter   Γ£ô Set up Node.js   Γ£ô Install Frontend Dependencies and Build   Γ£ô Post Set up Node.js   Γ£ô Post Set up Python   Γ£ô Post Checkout repository   Γ£ô Complete job  ANNOTATIONS ! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4, actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/ lint-and-build: .github#2  - "The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748" lint-and-build: .github#1   To see the full job log, try: gh run view --log --job=124234086498 View this run on GitHub: https://github.com/finishedsarevsh/xrwvm-fullstack_developer_capstone/actions/runs/41105501101
+
+============================================================
+FULL STEP LOGS:
+============================================================
+lint-and-build	UNKNOWN STEP	∩╗┐2026-10-30T18:16:33.8291369Z Current runner version: '2.338.2'
 lint-and-build	UNKNOWN STEP	2026-10-30T18:16:33.8318125Z ##[group]Runner Image Provisioner
 lint-and-build	UNKNOWN STEP	2026-10-30T18:16:33.8318996Z Hosted Compute Agent
 lint-and-build	UNKNOWN STEP	2026-10-30T18:16:33.8319987Z Version: 20261021.618
@@ -341,3 +346,4 @@ lint-and-build	UNKNOWN STEP	2026-10-30T18:17:19.3352167Z [command]/usr/bin/git c
 lint-and-build	UNKNOWN STEP	2026-10-30T18:17:19.3396169Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
 lint-and-build	UNKNOWN STEP	2026-10-30T18:17:19.3876019Z Cleaning up orphan processes
 lint-and-build	UNKNOWN STEP	2026-10-30T18:17:19.4379918Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4, actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+
